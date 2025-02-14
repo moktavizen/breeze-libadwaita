@@ -13,7 +13,7 @@ KDE theme to unify Breeze and Libadwaita.
     ```
 
 2. Apply the theme using KDE Settings, if you are not on KDE, apply it using
-[qt5ct](https://aur.archlinux.org/packages/qt5ct-kde) and [qt6ct](https://aur.archlinux.org/packages/qt6ct-kde)
+[qt5ct-kde](https://aur.archlinux.org/packages/qt5ct-kde) and [qt6ct-kde](https://aur.archlinux.org/packages/qt6ct-kde)
 
 ### Recommendation
 
