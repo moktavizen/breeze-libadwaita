@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Script to convert Breeze Dark to Libadwaita Dark
+# Tested on Breeze 6.3.0-2 on Arch Linux
 
 sudo cp /usr/share/color-schemes/BreezeDark.colors ./
 sudo chmod 777 BreezeDark.colors
