@@ -6,27 +6,40 @@ KDE color scheme to unify Breeze and Libadwaita.
 
 ### Installation
 
-1. Copy the color file
+The installation steps are different for KDE and non-KDE Environment.
+
+#### KDE
+
+1. Install the color scheme file
 
     ```sh
-    cp ./color-schemes/BreezeLibadwaitaDark.colors ~/.local/share/color-schemes/
+    curl -fsSL https://github.com/moktavizen/breeze-libadwaita/raw/main/kde/install | sh
     ```
 
-2. Apply the theme using KDE Settings
+2. Apply System Settings > Colors & Themes > Colors > Breeze Libadwaita Dark
 
-    - System Settings > Colors & Themes > Colors > Breeze Libadwaita Dark
-    - If you are not on KDE, apply it using [qt5ct-kde](https://aur.archlinux.org/packages/qt5ct-kde) and [qt6ct-kde](https://aur.archlinux.org/packages/qt6ct-kde)
+3. Optional steps to match Libadwaita window decorations
 
-### Recommendation
+    Install <code>[papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), [klassy](https://github.com/paulmcauley/klassy)</code>, and apply:
 
-Extra steps to match Libadwaita window decorations
-
-1. Install [Papirus Icon](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-
-2. Install [Klassy KDE Plugin](https://github.com/paulmcauley/klassy), and set:
-
+    - System Settings > Colors & Themes > Icons > Papirus Dark
     - System Settings > Colors & Themes > Application Style > Klassy
     - System Settings > Colors & Themes > Window Decorations > Klassy
-    - System Settings > Colors & Themes > Icons > Papirus Dark
-    - Klassy Settings > Presets > Add > Import [this preset](https://github.com/moktavizen/breeze-libadwaita/blob/main/klassy-preset/Breeze_Libadwaita.klpw) > Load
+    - Klassy Settings > Presets > Add > Import [this preset](./kde/klassy-preset/Breeze_Libadwaita.klpw) > Load
     - Reboot
+
+#### Non-KDE
+
+1. Install the color scheme files
+
+    ```sh
+    curl -fsSL https://github.com/moktavizen/breeze-libadwaita/raw/main/qtct/install | sh
+    ```
+
+2. Install `breeze5, breeze, qt5ct, qt6ct`
+
+3. Open Qt5 Settings and Qt6 Settings, and go to:
+
+    - Appearance > Style > Breeze
+    - Appearance > Palette > Custom > Color scheme > breeze_libadwaita_dark
+    - Apply
