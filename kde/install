@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Install KDE Color Scheme file
+
+mkdir -p "$HOME/.local/share/color-schemes/"
+curl \
+  -fsSL https://github.com/moktavizen/breeze-libadwaita/raw/main/kde/color-schemes/BreezeLibadwaitaDark.colors \
+  -o "$HOME/.local/share/color-schemes/BreezeLibadwaitaDark.colors"
