@@ -16,15 +16,15 @@ The installation steps are different for KDE and non-KDE Environment.
     curl -fsSL https://github.com/moktavizen/breeze-libadwaita/raw/main/kde/install | sh
     ```
 
-2. Apply System Settings > Colors & Themes > Colors > Breeze Libadwaita Dark
+2. Apply using KDE System Settings > Colors & Themes > Colors > Breeze Libadwaita Dark > Apply
 
 3. Optional steps to match Libadwaita window decorations
 
-    Install <code>[papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), [klassy](https://github.com/paulmcauley/klassy)</code>, and apply:
+    Install <code>[papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), [klassy](https://github.com/paulmcauley/klassy)</code>, and apply using:
 
-    - System Settings > Colors & Themes > Icons > Papirus Dark
-    - System Settings > Colors & Themes > Application Style > Klassy
-    - System Settings > Colors & Themes > Window Decorations > Klassy
+    - KDE System Settings > Colors & Themes > Icons > Papirus Dark > Apply
+    - KDE System Settings > Colors & Themes > Application Style > Klassy > Apply
+    - KDE System Settings > Colors & Themes > Window Decorations > Klassy > Apply
     - Klassy Settings > Presets > Add > Import [this preset](./kde/klassy-preset/Breeze_Libadwaita.klpw) > Load
     - Reboot
 
