@@ -30,16 +30,6 @@ The installation steps are different for KDE and non-KDE Environment.
 
 #### Non-KDE
 
-1. Install the color scheme files
+1. Install <code>[plasma-workspace](https://archlinux.org/packages/extra/x86_64/plasma-workspace/), [systemsettings](https://archlinux.org/packages/extra/x86_64/systemsettings/)</code>
 
-    ```sh
-    curl -fsSL https://github.com/moktavizen/breeze-libadwaita/raw/main/qtct/install | sh
-    ```
-
-2. Install `breeze5, breeze, qt5ct, qt6ct`
-
-3. Open Qt5 Settings and Qt6 Settings, and go to:
-
-    - Appearance > Style > Breeze
-    - Appearance > Palette > Custom > Color scheme > breeze_libadwaita_dark
-    - Apply
+2. Follow the [KDE steps](#kde)
